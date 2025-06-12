@@ -1,0 +1,183 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 16px; 
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color: #902092;
+  }
+  
+  img {
+    max-width: 30%;
+    max-height: 30%;
+  }
+  
+  #anxiety {
+    max-width: 54%;
+    border-radius: 15%;
+    left: 20px;
+  }
+  
+  #depression {
+    max-width: 34%;
+    border-radius: 15%;
+    left: 40px;
+  }
+  
+  body {
+    max-width: 1200px;
+    font-family: "Lucida Sans", "typewriter";
+    margin: 0 auto;
+    background-color: #eaeaf6;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 105%;
+  }
+  
+  ul {
+    font-size: 105%;
+  }
+  
+  #nav_menu ul {
+    list-style-type: none;
+    display: flex; 
+    justify-content: center; 
+  }
+  
+  #nav_menu ul li {
+    margin: 0 5px;
+  }
+  
+  #nav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #902092;
+    color: white;
+    border-right: 2px solid white;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+  }  
+  
+  #nav_menu ul li a.lastitem {
+    border-right: none;
+  }
+  
+  #nav_menu ul li a:hover {
+    background-color: #e39de4; /* Change the background color on hover */
+  }
+  
+  li {
+    margin:auto; 
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 9px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #610862;
+  }
+  
+  .anxiety {
+    text-align: center;
+  }
+  
+  .anx {
+    max-width: 25%;
+    border-radius: 15%;
+    position: relative;
+    left: 10px;
+  }
+  
+  #anxiety2 {
+    max-width: 50%;
+    border-radius: 15%;
+    position: relative;
+    left: 20px;
+  }
+  
+  h3 {
+    text-decoration: underline;
+    text-decoration-color: #902092;
+  }
+  
+
+  
+  footer {
+    text-align: center;
+  }
+  .left-side {
+    float: left;
+    width: 50%;
+  }
+
+  .right-side {
+    float: right;
+    width: 50%;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  dt {
+    font-weight: bold; 
+  }
+  dl {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  dt, dd {
+    flex: 1; 
+  }
+
+  dt {
+    font-weight: bold;
+  }
+
+  dd {
+    margin-left: 2px; /* Add space between term and description */
+  }
+
+  /* Default styles for larger screens */
+body {
+  font-size: 16px;
+  /* other default styles */
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  body {
+    font-size: 10px;
+  }
+}
